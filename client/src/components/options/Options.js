@@ -98,7 +98,7 @@ const Options = () => {
             </Button>
           </CopyToClipboard>
 
-          <div className={classes.share_social}>
+          {/* <div className={classes.share_social}>
             <WhatsappShareButton
               url={`https://video-chat-mihir.vercel.app/`}
               title={`Join this meeting with the given code "${me}"\n`}
@@ -121,7 +121,7 @@ const Options = () => {
             >
               <TwitterIcon size={26} round className={classes.share_border} />
             </TwitterShareButton>
-          </div>
+          </div> */}
         </div>
       </div>
       <div style={{ marginBottom: "0.5rem" }}>

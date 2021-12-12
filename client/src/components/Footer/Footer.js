@@ -5,8 +5,8 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      Made with <HeartTwoTone twoToneColor="#eb2f96" /> By{" "}
-      <a
+      {/* Made with <HeartTwoTone twoToneColor="#eb2f96" /> By{" "} */}
+      {/* <a
         className="footer__link"
         href="https://github.com/mihir0699/Video-Chat"
         target="_blank"
@@ -14,7 +14,7 @@ const Footer = () => {
         rel="noreferrer"
       >
         Mihir Gupta
-      </a>
+      </a> */}
     </footer>
   );
 };
